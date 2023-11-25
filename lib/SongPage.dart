@@ -20,6 +20,12 @@ class _SongPageState extends State<SongPage> {
   Duration position = Duration.zero;
 
   @override
+  void dispose() {
+    player.stop();
+    super.dispose();
+  }
+
+  @override
   void initState() {
     super.initState();
 
@@ -66,11 +72,14 @@ class _SongPageState extends State<SongPage> {
               height: 300,
               child: Lottie.asset('assets/musique.json'),
             ),
-            Text(
-              widget.titre,
-              style: const TextStyle(
-                color: Colors.black,
-                fontSize: 35,
+            Padding(
+              padding: const EdgeInsets.fromLTRB(20, 0, 0, 0),
+              child: Text(
+                widget.titre,
+                style: const TextStyle(
+                  color: Colors.black,
+                  fontSize: 35,
+                ),
               ),
             ),
             Slider(

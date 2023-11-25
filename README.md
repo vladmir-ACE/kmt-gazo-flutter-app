@@ -1,16 +1,16 @@
 # kmt
 
-A new Flutter project.
+Une application flutter sur l'album KMT de Gazo ; juste pour le fun.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Pour voir le projets ; suivez les étapes suivants :
 
-A few resources to get you started if this is your first Flutter project:
+1-Installer Flutter sur votre ordinateur 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2- clonez ce repositorie pour récupérer le code 
+
+
+3-lancer le projet dans le terminale  avec la commande "flutter run "
+
